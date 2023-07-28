@@ -1,0 +1,21 @@
+[
+    {
+      "nombre": "Juan",
+      "edad": 30,
+      "ocupacion": "Ingeniero",
+      "pais": "España"
+    },
+    {
+      "nombre": "María",
+      "edad": 25,
+      "ocupacion": "Diseñadora",
+      "pais": "México"
+    },
+    {
+      "nombre": "Pedro",
+      "edad": 28,
+      "ocupacion": "Programador",
+      "pais": "Argentina"
+    }
+  ]
+  
