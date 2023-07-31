@@ -1,11 +1,13 @@
 <script setup>
 defineProps({
-    title: String,
-    author: String,
-    year: Number,
+    nombre: String,
+    edad: Number,
+    ocupacion: String,
+    pais: String,
+    
     body: {
         type : String,
-        default: "sin descripcion",
+        default: "Esta api fue creada para mostrar datos de una persona",
     }
 
 })
@@ -16,7 +18,7 @@ const emit = defineEmits(['añadirFavorito'])
     <div class="col">
         <div class="card">
             <div class="card-body">
-                    <h5 class="card-title">{{title}} - {{ year }} - {{ author }} </h5>
+                    <h5 class="card-title">{{ nombre }} - {{ edad }} - {{ ocupacion }} - {{ pais }}</h5>
                         <p class="card-text">{{body}}</p>
                         <div class="d-grid">
                             <button class="btn btn-primary" type="button" @click="emit('añadirFavorito', id)">Añadir a favoritos</button>
