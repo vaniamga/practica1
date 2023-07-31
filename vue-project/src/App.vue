@@ -54,7 +54,7 @@ body {
  background: -webkit-linear-gradient(to right, #155799, #159957); 
  background: linear-gradient(to right, #155799, #159957); 
   text-align: center;
-  margin: 0;
+  margin: 20px;
   padding: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
