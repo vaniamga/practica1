@@ -29,7 +29,7 @@ getData()
 <template>
   <LoadingSpinner v-if="loading" />
   <div v-else>
-    <h1> INFORMACIÓN {{ favorito }}</h1>
+    <h1> User Favorito {{ favorito }}</h1>
     <div class="container"> 
       <section class="row row-cols-1 row-cols-md-2 g-4">
         <Cards 
@@ -50,9 +50,7 @@ getData()
 body {
   display: flex;
   justify-content: center;
-  background: #159957; 
- background: -webkit-linear-gradient(to right, #155799, #159957); 
- background: linear-gradient(to right, #155799, #159957); 
+  background-color: rgb(19, 16, 16);
   text-align: center;
   margin: 20px;
   padding: 0;
@@ -61,7 +59,7 @@ body {
 
 h1 {
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .card {
