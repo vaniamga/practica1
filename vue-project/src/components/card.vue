@@ -21,7 +21,7 @@ const emit = defineEmits(['añadirFavorito'])
                     <h5 class="card-title">{{ nombre }} - {{ edad }} - {{ ocupacion }} - {{ pais }}</h5>
                         <p class="card-text">{{body}}</p>
                         <div class="d-grid">
-                            <button class="btn btn-primary" type="button" @click="emit('añadirFavorito', id)">Añadir a favoritos</button>
+                            <button class="btn btn-primary" type="button" @click="emit('añadirFavorito', nombre)">Añadir a favoritos</button>
                         </div>
                     </div>
                 </div>    

@@ -34,6 +34,7 @@ getData()
       <section class="row row-cols-1 row-cols-md-2 g-4">
         <Cards 
           v-for="item in posts"
+          @añadirFavorito="añadirFavorito"
           :key="item.id" 
           :nombre="item.nombre"
           :edad="item.edad"
